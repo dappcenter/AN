@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="D1VS - Arcadium Network">
+        <meta name="author" content="Arcadium Network">
+        <title>Home | Arcadium Network</title>
+
+        <!-- Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/arcadium-fx.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/f352960784.js" crossorigin="anonymous"></script>
+        <script src="assets/js/modernizr.min.js"></script>
+    </head>
+
+    <body class="is-preload wallpaperOrange">
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar -->
+            <div class="glassPanel border-light" id="sidebar-wrapper">
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="sidebar-heading text-white">
+                    <small class="text-muted">Wallet Balance</small>
+                    <h5 class="text-white"><span class="myTokens">-</span> PYRO</h5>
+                    <a class="btn btn-sm btn-primary roundedCorners" href="#" data-toggle="modal" data-target="#transferModal"><i class="fas fa-paper-plane"></i> Transfer</a>
+                    <button type="button" class="btn btn-sm btn-primary roundedCorners" onClick="window.location.reload();">Refresh</button>
+                </div>
+                <b class="text-white"> // DAPPS</b>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action glassButton text-white" href="divs.html"><b><i class="fas fa-chart-line text-danger"></i> D1VS</b></a>
+                    <a class="list-group-item list-group-item-action glassButton text-white" href="bttx.html"><b><i class="fas fa-dice-d6" style="color: #ffff00;"></i> BTTX</b></a>
+                    <a class="list-group-item list-group-item-action glassButton text-white" href="daily.html"><b><i class="fas fa-tint text-primary"></i> DAILY</b></a>
+                    <a class="list-group-item list-group-item-action glassButton text-white" href="arcbank.html"><b><i class="fas fa-dollar-sign" style="color: #00ff0a;"></i> ARCBANK</b></a>
+                    <a class="list-group-item list-group-item-action glassButton text-white" href="pyropress.html"><b><i class="fas fa-fire" style="color: #ff8900;"></i> PYROPRESS</b></a>
+                    <a class="list-group-item list-group-item-action glassButton text-white" href="goactdivs.html"><b><i class="fas fa-users" style="color: #ff0000;"></i> GOACT D1VS</b></a>
+                </div>
+                <br />
+                <b class="text-white"> // REVIEW</b>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action glassButton text-white" href="https://www.dappstats.com/dapp/arcadium-d1vs" target="_blank"><b><i class="fas fa-bookmark text-white"></i> DappStats</b></a>
+                    <a class="list-group-item list-group-item-action glassButton text-white" href="https://dapp.review/dapp/13081" target="_blank"><b><i class="fas fa-bookmark text-white"></i> DappReview</b></a>
+                    <a class="list-group-item list-group-item-action glassButton text-white" href="https://www.stateofthedapps.com/dapps/arcadium-d1vs" target="_blank"><b><i class="fas fa-bookmark text-white"></i> StateOfTheDapps</b></a>
+                </div>
+                <br />
+                <b class="text-white"> // RESOURCES</b>
+                <div class="list-group list-group-flush">
+                    <a href="https://github.com/Arcadium-Network" target="_blank" class="list-group-item list-group-item-action glassButton text-white"><i class="fab fa-github text-info"></i>  GitHub</a>
+                </div>
+                <br />
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <!-- NAVBAR -->
+                <nav class="navbar navbar-expand-lg navbar-dark border-light fixed-top" style="background-color: #000;">
+                    <div class="navbar-brand text-white"><a href="index.html"><img src="assets/img/logo.png" width="40px" /></a></div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="https://discord.gg/ztNcbm3" target="_blank"><i class="fab fa-discord text-primary"></i> Discord</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://twitter.com/ArcadiumTRX" target="_blank"><i class="fab fa-twitter text-primary"></i> Twitter</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <br /><br /><br /><br /><br /><br />
+                
+                <!-- MAIN CONTAINER -->
+                <div class="container">
+                    <!-- Header Row -->
+                    <div class="row jumbotron glassPanel orangeBorder roundedCorners" style="border: solid #868e96;">
+                        <div class="col text-center">
+                            <h1 class="text-white"><i class="fas fa-fire text-danger" aria-hidden="true"></i> <span class="arcTag">PyroPress</span></h1>
+                            <p class="text-muted"><i>Manage your PYRO like a PRO</i></p>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card glassPanel roundedCorners orangeBorder">
+                                <div class="card-header text-white">My PYRO</div>
+                                <div class="card-body text-white">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <h2 class="text-white"><i class="fas fa-fire text-white"></i> <span class="myFrozen">-</span></h2>
+                                                <p class="text-white">Your Frozen PYRO</p>
+                                            </div>
+
+                                            <div class="col text-center">
+                                                <h3 class="text-white">
+                                                    <i class="fas fa-fire text-white"></i> <span id="myDividends">-</span>
+                                                </h3>
+                                                <p class="text-light">Your Earnings</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-white">
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <a class="btn btn-block btn-md btn-success text-dark roundedCorners" href="#" data-toggle="modal" data-target="#freezeModal"><i class="fas fa-lock"></i> Freeze</a>
+                                        </div>
+
+                                        <div class="col text-center">
+                                            <a class="btn btn-block btn-md btn-danger roundedCorners" href="#" data-toggle="modal" data-target="#unfreezeModal"><i class="fas fa-lock-open"></i> Unfreeze</a>
+                                        </div>
+                                        
+                                        <div class="col text-center">
+                                            <button type="button" class="btn btn-block btn-md btn-warning roundedCorners" id="withdraw"><i class="fas fa-hand-holding-usd"></i> Withdraw</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card glassPanel roundedCorners orangeBorder">
+                                <div class="card-header text-white">Token Stats</div>
+                                <div class="card-body text-white">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col text-center">
+                                                <h3 class="text-danger"><i class="fas fa-fire text-white"></i> <span id="totalFrozen">-</span></h3>
+                                                <p class="text-light">Total Frozen</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-white">
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <a class="btn btn-block btn-md btn-dark btn-outline-warning text-white roundedCorners" href="https://poloniex.org/exchange?id=415" target="_blank">Trade PYRO on Poloniex</a>
+                                        </div>
+                        
+                                        <div class="col text-center">
+                                            <a class="btn btn-block btn-md btn-info roundedCorners" href="https://tronscan.io/#/token20/TMCMPzmosnQ8UAYW1zcBwjLTxDq8ce4Y5e" target="_blank"><i class="fas fa-search-dollar"></i> View on Tronscan</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col text-center">
+                            <small class="text-white">
+                                <i>Arcadium Network is not endorsed nor sponsored by any listings, media mention or otherwise.</i>
+                            </small>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                
+                <button class="floatingButton" id="menu-toggle" style="z-index: 1"><img src="assets/img/logo.png" width="50px" /></button>
+            </div>
+            <!-- /#page-content-wrapper -->
+
+        </div>
+        
+        <footer class="py-5 px-5 glassPanel roundedCorners text-white">
+            <div class="row">
+                <div class="col text-center">
+                    <b>The Fine Print</b>
+                    <small class="d-block mb-3 text-muted">
+                        This Dapp, its connected Smart Contract and its dependencies &amp; productions are provided on an &quot;as-is&quot; basis, and with <b class="text-danger">no guarantee of profit or gain</b>.<br />
+                        Only invest with TRX which you can afford to lose. Using any of the aforementioned constitutes agreement with this statement.<br />
+                        Developers, Members, Participants or other affiliated parties will not be held responsible for any losses you may incur.
+                    </small>
+                </div>
+            </div>
+            <br />
+            <br />
+        </footer>
+        
+        <!-- Bottom Nav -->
+        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark" style="background-color: rgba(0,0,0,1);">
+            <ul class="navbar-nav mr-auto ml-auto">
+                <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+                <coingecko-coin-price-marquee-widget  coin-ids="tron,bittorrent-2,just-stablecoin" currency="usd" background-color="#000000" locale="en" font-color="#ffffff"></coingecko-coin-price-marquee-widget>
+            </ul>
+        </nav>
+        
+        <!-- Modals -->
+        <!-- Freeze Modal -->
+        <div class="modal" id="freezeModal">
+            <div class="modal-dialog">
+                <div class="modal-content glassPanel roundedCorners greenBorder">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-success">Freeze PYRO</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <h3 class="text-white"><span class="myTokens">-</span> PYRO</h3>
+                                    <small class="text-white">Your Available Balance</small>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col text-center">
+                                    <div class="input-group">
+                                        <input type="number" class="form-control roundedCorners" placeholder="Amount of tokens to freeze" id="freezeAmount">
+                                    </div>
+                                    <div class="d-flex align-items-center flex-wrap mt-3">
+                                        <a class="btn btn-block btn-sm btn-success text-dark roundedCorners" href="" id="freeze">Freeze</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col text-center">
+                                    <small class="text-white text-center">You need at least 1000 PYRO to begin freezing!</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer text-white">
+                        <button type="button" class="btn btn-danger roundedCorners" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- Unfreeze Modal -->
+        <div class="modal" id="unfreezeModal">
+            <div class="modal-dialog">
+                <div class="modal-content glassPanel roundedCorners redBorder">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-warning">Unfreeze PYRO</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <h3 class="text-white"><span class="myFrozen">-</span> PYRO</h3>
+                                    <small class="text-white">Your Frozen PYRO</small>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col text-center">
+                                    <div class="input-group">
+                                        <input type="number" class="form-control roundedCorners" placeholder="Amount of tokens to unfreeze" id="unfreezeAmount">
+                                    </div>
+                                    <div class="d-flex align-items-center flex-wrap mt-3">
+                                        <a class="btn btn-block btn-sm btn-warning roundedCorners" href="" id="unfreeze">Unfreeze</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-center">
+                                    <small class="text-white text-center">When you unfreeze, your will incur a 5% Tax, which is distributed among those who still have frozen PYRO.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer text-white">
+                        <button type="button" class="btn btn-danger roundedCorners" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- Transfer Modal -->
+        <div class="modal" id="transferModal">
+            <div class="modal-dialog">
+                <div class="modal-content glassPanel roundedCorners blueBorder">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-primary">Transfer PYRO</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <h3 class="text-white"><span class="myTokens">-</span> PYRO</h3>
+                                    <small class="text-white">Your Available Balance</small>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col text-center">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control roundedCorners mb-2" placeholder="Receiver Address" id="transferReceiver">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control roundedCorners" placeholder="Amount of tokens to send" id="transferAmount">
+                                    </div>
+                                    <div class="d-flex align-items-center flex-wrap mt-3">
+                                        <a class="btn btn-block btn-sm btn-primary roundedCorners" href="" id="transfer">Transfer</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col text-center">
+                                    <small class="text-white text-center">
+                                        When you transfer PYRO to another address, you will incur a 5% tax.<br />
+                                        50% of the tax is burned, and the other 50% is distributed among those who have frozen PYRO.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer text-white">
+                        <button type="button" class="btn btn-danger roundedCorners" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Bootstrap core JavaScript -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        
+        <!-- JS Implementing Plugins -->
+        <script src="assets/js/jquery.validate.min.js"></script>
+        <script src="assets/js/jquery.fancybox.min.js"></script>
+        <script src="assets/js/typed.min.js"></script>
+        <script src="assets/js/slick.js"></script>
+        
+        <script src="assets/lib/staking.js"></script>
+        <script src="assets/lib/pyropress.js"></script>
+
+        <!-- Menu Toggle Script -->
+        <script>
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
+    </body>
+</html>

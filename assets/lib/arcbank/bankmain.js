@@ -1,5 +1,5 @@
 let tokenAddr = 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t' //USDJ
-let bankAddr = 'TDnoW9tDMLb4qgTMe5QJsn7aLCr8eBMoKJ' //Bank contract
+let bankAddr = 'TP7e51Ugx4WeRbdTFJwX1iVbaWPLVUAb18' //Bank contract
 let userdbAddress = 'TDYMu6JZWqyp4gZpAz28UEcYg3bJVEV4fC' // User DB
 let userAddr = ''
 

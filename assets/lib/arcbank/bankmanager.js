@@ -17,7 +17,7 @@ window.onload = function() {
 
 async function once() {
     tronWeb = window.tronWeb;
-    bankContract = await tronWeb.contract().at("TDnoW9tDMLb4qgTMe5QJsn7aLCr8eBMoKJ");  //Bank contract
+    bankContract = await tronWeb.contract().at("TP7e51Ugx4WeRbdTFJwX1iVbaWPLVUAb18");  //Bank contract
 
     currentAddr = tronWeb.defaultAddress['base58'];
     console.log(currentAddr);
